@@ -71,8 +71,8 @@ a {
 }
 
 @media (max-width: 500px) {
-  body {
-    padding: 1rem;
+  .container {
+    padding: 1.5rem;
   }
 
   .content {
