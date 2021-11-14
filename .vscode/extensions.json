@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "rvest.vs-code-prettier-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "mgmcdermott.vscode-language-babel",
+    "bradlc.vscode-tailwindcss",
+    "davidanson.vscode-markdownlint"
+  ]
+}

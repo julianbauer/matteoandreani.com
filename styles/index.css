@@ -1,0 +1,50 @@
+/* Start purging... */
+@tailwind base;
+/* Stop purging. */
+
+/* Write your own custom base styles here */
+@layer base {
+  html,
+  body {
+    @apply font-text text-grey;
+  }
+
+  h1 {
+    @apply font-bold text-lg;
+  }
+
+  /* :root {
+    
+  }
+
+  a,
+  button {
+    @apply relative;
+
+    &:focus {
+      @apply outline-none;
+    }
+
+    &:focus-visible {
+      &::after {
+        content: '';
+
+        @apply absolute inset-0 -m-2 rounded-sm shadow-outline;
+      }
+    }
+  } */
+}
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+/* @layer components {
+} */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */

@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true, // Enable format on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true, // Enable eslint on save
+    "source.fixAll.stylelint": true // Enable stylelint on save
+  },
+  "css.validate": false, // Disable css built-in lint
+  "stylelint.enable": true, // Enable stylelint
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdownlint.run": "onSave"
+}

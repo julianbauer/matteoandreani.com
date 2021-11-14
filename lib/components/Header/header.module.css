@@ -1,0 +1,25 @@
+.root {
+  @apply fixed inset-32 bottom-auto flex flex-col justify-between items-start pb-20;
+
+  @screen sm {
+    @apply flex-row;
+  }
+}
+
+.right {
+  @apply flex flex-col items-start gap-8 mt-8;
+
+  @screen sm {
+    @apply items-end mt-0;
+  }
+}
+
+.title {
+  @apply text-lg mb-4;
+}
+
+.link {
+  @apply no-underline;
+
+  color: inherit;
+}

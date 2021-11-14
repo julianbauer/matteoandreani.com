@@ -1,0 +1,7 @@
+.container {
+  @apply fixed inset-0 flex overflow-x-auto;
+
+  /* @screen sm {
+    @apply p-32 pt-0;
+  } */
+}

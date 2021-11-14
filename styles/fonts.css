@@ -1,0 +1,7 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Telegraf';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../public/assets/fonts/PPTelegraf-Bold.woff2) format('woff2');
+}

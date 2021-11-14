@@ -1,0 +1,39 @@
+.root {
+  @apply w-full h-full;
+
+  /* columns: 2 auto; */
+}
+
+.scrollContainer {
+  /* @apply pt-112 h-full w-full; */
+}
+
+.stage {
+  @apply flex p-24 pt-112;
+}
+
+.imageContainer {
+  @apply transform scale-100 relative h-full w-auto mr-24 transition-all ease-dynamic duration-500;
+}
+
+.imagecontainer:last-child {
+  @apply mr-0;
+}
+
+.image {
+  @apply transform scale-100 rounded-sm h-full w-auto max-w-none transition-all ease-dynamic duration-500;
+}
+
+.description {
+  @apply opacity-0 transform -rotate-90 absolute left-full bottom-0 ml-20 origin-bottom-left transition-opacity;
+
+  font-size: 14px;
+}
+
+.imageContainer:hover {
+  @apply mr-40 scale-101;
+
+  .description {
+    @apply opacity-100;
+  }
+}

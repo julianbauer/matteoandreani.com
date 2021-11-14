@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["lib/components/*"],
+      "@elements/*": ["lib/elements/*"],
+      "@models/*": ["lib/models/*"],
+      "@services/*": ["lib/services/*"],
+      "@assets/*": ["public/assets/*"],
+      "@content/*": ["public/content/*"]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules/",
+    "build",
+    ".vscode",
+    ".next",
+    "coverage",
+    ".npm",
+    ".yarn"
+  ]
+}
