@@ -1,11 +1,5 @@
 .root {
   @apply w-full h-full;
-
-  /* columns: 2 auto; */
-}
-
-.scrollContainer {
-  /* @apply pt-112 h-full w-full; */
 }
 
 .stage {
