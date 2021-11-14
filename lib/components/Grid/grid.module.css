@@ -19,13 +19,13 @@
 }
 
 .description {
-  @apply opacity-0 transform -rotate-90 absolute left-full bottom-0 ml-20 origin-bottom-left transition-opacity;
+  @apply opacity-0 transform absolute top-full mt-4 transition-opacity;
 
   font-size: 14px;
 }
 
 .imageContainer:hover {
-  @apply mr-40 scale-101;
+  @apply scale-101 -translate-y-12;
 
   .description {
     @apply opacity-100;
