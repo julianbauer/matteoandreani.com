@@ -7,15 +7,33 @@
 }
 
 .imageContainer {
-  @apply transform scale-100 relative h-full w-auto mr-24 transition-all ease-dynamic duration-500;
+  @apply block transform scale-100 relative h-full w-auto mr-24 transition-all ease-dynamic duration-500;
+
+  &:last-child {
+    @apply mr-0;
+  }
 }
 
-.imagecontainer:last-child {
-  @apply mr-0;
+.imageWrapper {
+  @apply w-auto h-full;
+
+  > div {
+    @apply w-auto h-full;
+
+    > div {
+      display: none !important;
+    }
+  }
 }
 
 .image {
-  @apply transform scale-100 rounded-sm h-full w-auto max-w-none transition-all ease-dynamic duration-500;
+  @apply transform scale-100 rounded-sm h-full w-auto transition-all ease-dynamic duration-500;
+
+  position: relative !important;
+  width: auto !important;
+  max-width: none !important;
+  height: unset !important;
+  object-fit: contain;
 }
 
 .description {
