@@ -49,3 +49,11 @@
     @apply opacity-100;
   }
 }
+
+.overlay {
+  @apply fixed inset-0 bg-grey bg-opacity-90;
+}
+
+.enlargedImage {
+  @apply w-full h-full bg-contain bg-center bg-no-repeat;
+}
