@@ -3,14 +3,26 @@
 }
 
 .stage {
-  @apply flex p-24 pt-112;
+  @apply pt-0 p-24;
+
+  @screen sm {
+    @apply flex pt-112;
+  }
 }
 
 .imageContainer {
-  @apply block transform scale-100 relative h-full w-auto mr-24 transition-all ease-dynamic duration-500;
+  @apply block transform scale-100 relative h-full mb-24 w-auto transition-all ease-dynamic duration-500;
 
   &:last-child {
-    @apply mr-0;
+    @apply mb-0;
+  }
+
+  @screen sm {
+    @apply mt-0 mr-24;
+
+    &:last-child {
+      @apply mr-0;
+    }
   }
 }
 
@@ -31,9 +43,19 @@
 
   position: relative !important;
   width: auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
   max-width: none !important;
   height: unset !important;
+  height: auto !important;
+  min-height: 0 !important;
+  /* max-height: none !important; */
   object-fit: contain;
+
+  @screen sm {
+    width: auto !important;
+    height: unset !important;
+  }
 }
 
 .description {
