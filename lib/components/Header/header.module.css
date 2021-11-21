@@ -2,12 +2,16 @@
   @apply fixed inset-32 bottom-auto flex flex-col justify-between items-start pb-20;
 
   @screen sm {
-    @apply flex-row;
+    @apply flex-row items-end;
   }
 }
 
 .right {
   @apply flex flex-col items-start gap-8 mt-8;
+
+  a {
+    @apply leading-tight;
+  }
 
   @screen sm {
     @apply items-end mt-0;
