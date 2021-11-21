@@ -73,7 +73,7 @@
 }
 
 .overlay {
-  @apply fixed inset-0 bg-grey bg-opacity-90;
+  @apply fixed inset-0 bg-grey bg-opacity-90 z-20;
 }
 
 .enlargedImage {
