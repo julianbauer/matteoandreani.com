@@ -3,10 +3,10 @@
 }
 
 .stage {
-  @apply pt-0 p-24;
+  @apply pt-0 p-16;
 
   @screen sm {
-    @apply flex pt-112;
+    @apply flex p-24 pt-112;
   }
 }
 
