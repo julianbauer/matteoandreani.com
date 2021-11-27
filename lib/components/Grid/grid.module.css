@@ -54,7 +54,7 @@
 
   @screen sm {
     width: auto !important;
-    height: unset !important;
+    height: 100% !important;
   }
 }
 
